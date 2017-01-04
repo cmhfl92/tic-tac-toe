@@ -4,36 +4,36 @@ html
 
 body
   font-family: sans-serif
-  background-image: url('http://wallpapercave.com/wp/AWzDV5B.jpg')
-
+  background-image: url('http://orig03.deviantart.net/5a8d/f/2011/097/0/5/rainbow_spectrum_2_by_nicolecat1-d3dfsia.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+  display: flex
+  justify-content: center
+  flex-direction: column
 // top-bottom
 // left to right classes for the board
 
 h1
   text-align: center
   font-family: 'Katibeh'
-  color: #0aff95
+  color: hsla(142, 100%, 50%, 0.89)
   font-size: 4em
-
-p
-  font-family: 'Pacifico', cursive
-  text-align: center
-  color: #1ae8ff
-  font-weight: bolder
-  font-size: 2em
 
 button
   text-align: center
-  margin-right: 50%
-  margin-left: 50%
-  background-color: #ff1a98
-  border-radius: 30%
+  padding-left: 3em
+  padding-right: 3em
+  margin-right: 70%
+  margin-left: 40%
+  background-color: hsla(0, 100%, 50%, 1)
+  border-radius: 10%
   border: none
   // width: 20%
   height: 4em
+  position: fixed
 
   active:button
-    border: none
+    // border: none
 
   ul
     list-style: none
@@ -48,18 +48,28 @@ section
   padding-top: 30%
 
   table
-    border-radius: 1em
-    // border-color: #ff1a98
+    // border-radius: 1em
     width: 80%
-    background-color: hsla(151, 100%, 100%, 0.7)
+    border-color: white
+    position: fixed
+    margin-top: 6em
+    padding-bottom: 1em
 
     tr
       height: 5em
-      border-top: none
+      background-color: hsla(360, 100%, 100%, 0.85)
+      border-color: blue
+      // border-width: medium
+      border-style: solid
+      color: black
+      height: 150px
+      font-size: 2em
+
+      tr:hover
+        background-color: #f5f5f5
+        cursor: pointer
 
       td
         text-align: center
-        border-radius: 1em
-        border-color: #d963a4
         height: 100px
         width: 100px
